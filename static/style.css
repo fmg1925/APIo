@@ -2,11 +2,30 @@ body {
     background: linear-gradient(to left, green, lime);
 }
 
-h1 {
+h1, h2 {
     margin-top: 10px;
     text-align: center;
     color: black;
-    text-shadow: 1px 1px 2px yellow;
+    text-shadow: 0.25px 0.25px 2px yellow;
+}
+
+h2 {
+    margin-top: 10px;
+    text-shadow: none;
+}
+
+ol {
+    list-style-position: outside;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+a {
+    color: black;
 }
 
 img {
